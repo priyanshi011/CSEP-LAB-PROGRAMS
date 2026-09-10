@@ -22,6 +22,7 @@ class copy_array {
         System.out.println("New array:");
         for (int i = 0; i < n; i++) {
             System.out.print(b[i] + " ");
+            sc.close();
         }
     }
 }

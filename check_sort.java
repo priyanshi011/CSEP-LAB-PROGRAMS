@@ -29,6 +29,7 @@ class check_sort {
             System.out.println("Array is sorted");
         } else {
             System.out.println("Array is not sorted");
+            sc.close();
         }
     }
 }

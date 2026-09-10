@@ -31,5 +31,6 @@ class count_vowconso {
 
         System.out.println("Vowels = " + vowels);
         System.out.println("Consonants = " + consonants);
+        sc.close();
     }
 }

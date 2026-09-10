@@ -30,5 +30,6 @@ class rotate_ksteps {
         for (int i = 0; i < n; i++) {
             System.out.print(temp[i] + " ");
         }
+        sc.close();
     }
 }

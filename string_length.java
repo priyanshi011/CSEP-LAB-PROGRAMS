@@ -9,5 +9,6 @@ class string_length {
 
         System.out.println("String = " + str);
         System.out.println("Length = " + str.length());
+        sc.close();
     }
 }

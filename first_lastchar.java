@@ -10,5 +10,6 @@ class first_lastchar {
         System.out.println("First character = " + str.charAt(0));
         System.out.println("Last character = "
                 + str.charAt(str.length() - 1));
+        sc.close();
     }
 }

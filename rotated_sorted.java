@@ -29,5 +29,6 @@ class rotated_sorted {
         } else {
             System.out.println("Array is not rotated sorted");
         }
+        sc.close();
     }
 }

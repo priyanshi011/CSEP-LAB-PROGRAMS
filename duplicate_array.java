@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class deletion_begg {
+class deletion_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -34,8 +34,10 @@ class deletion_begg {
                 if (a[i] == a[j]) {
                     System.out.print(a[i] + " ");
                     break;
+                    
                 }
             }
         }
+        sc.close();
     }
 }

@@ -31,5 +31,6 @@ class linear_search {
         } else {
             System.out.println("Element found at position " + (position + 1));
         }
+        sc.close();
     }
 }

@@ -26,6 +26,7 @@ class second_large {
             }
         }
 
-        System.out.println("Second largest = " + second);
+        System.out.println("Second largest = " + second);   
+        sc.close();
     }
 }

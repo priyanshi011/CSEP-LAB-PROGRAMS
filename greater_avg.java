@@ -26,5 +26,6 @@ class greater_avg {
                 System.out.print(a[i] + " ");
             }
         }
+        sc.close();
     }
 }

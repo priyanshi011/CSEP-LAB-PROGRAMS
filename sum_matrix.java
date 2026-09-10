@@ -23,5 +23,6 @@ class sum_matrix {
         }
 
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 }

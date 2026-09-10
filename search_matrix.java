@@ -39,6 +39,8 @@ class search_matrix {
 
         if (!found) {
             System.out.println("Element not found");
+ 
         }
+        sc.close();
     }
 }

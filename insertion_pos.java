@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class insertion_end {
+class insertion_pos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -31,5 +31,6 @@ class insertion_end {
         for (int i = 0; i <= n; i++) {
             System.out.print(a[i] + " ");
         }
+        sc.close();
     }
 }

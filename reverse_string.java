@@ -14,5 +14,6 @@ class reverse_string {
         }
 
         System.out.println("Reverse = " + reverse);
+        sc.close();
     }
 }

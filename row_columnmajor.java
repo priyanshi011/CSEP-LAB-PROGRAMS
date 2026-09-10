@@ -36,5 +36,6 @@ class row_columnmajor {
                 System.out.print(a[i][j] + " ");
             }
         }
+        sc.close();
     }
 }

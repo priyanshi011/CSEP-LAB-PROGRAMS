@@ -35,5 +35,6 @@ class diagonal_largersum {
         } else {
             System.out.println("Both sums are equal");
         }
+        sc.close();
     }
 }

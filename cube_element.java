@@ -23,5 +23,6 @@ class cube_element {
         for (int i = 0; i < n; i++) {
             System.out.print(cube[i] + " ");
         }
+        sc.close();
     }
 }

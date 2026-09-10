@@ -29,5 +29,6 @@ class sum_row{
 
             System.out.println("Sum of row " + (i + 1) + " = " + sum);
         }
+        sc.close();
     }
 }
