@@ -202,7 +202,7 @@ public class Main {
         System.out.println("\nList after Deletions:");
         list.display();
 
-        // Optional: User input demonstration via Scanner
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nEnter a value to add to the tail (User Input): ");
         int val = scanner.nextInt();
