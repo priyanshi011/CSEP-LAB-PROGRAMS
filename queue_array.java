@@ -13,10 +13,12 @@ class Queue {
     }
 
     void enqueue(int data) {
+
         if (rear == size - 1) {
             System.out.println("Queue is full");
         } 
         else {
+
             if (front == -1) {
                 front = 0;
             }
@@ -29,21 +31,29 @@ class Queue {
     }
 
     void dequeue() {
-        if (front == -1 &&rear==-1) {
+
+        if (front == -1 && rear == -1) {
             System.out.println("Queue is empty");
         } 
         else {
+
             System.out.println("Dequeued element is: " + arr[front]);
             front++;
+
+            if (front > rear) {
+                front = -1;
+                rear = -1;
+            }
         }
     }
 
     void peek() {
-        if (front == -1 && rear==-1) {
+
+        if (front == -1 && rear == -1) {
             System.out.println("Queue is empty");
         } 
         else {
-            System.out.println("Front element is: "+arr[front]);
+            System.out.println("Front element is: " + arr[front]);
         }
     }
 }
@@ -94,5 +104,3 @@ public class queue_array {
         }
     }
 }
-```
-
