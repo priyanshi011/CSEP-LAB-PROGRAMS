@@ -100,6 +100,7 @@ public class queue_array {
 
                 default:
                     System.out.println("Invalid choice");
+                    sc.close();
             }
         }
     }

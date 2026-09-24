@@ -12,6 +12,7 @@ static int factorial(int N){
         System.out.println("Enter a number:\n");
         int N=sc.nextInt();
         System.out.println("Factorial of " + N + " is: " + factorial(N));
+        sc.close();
     }
     
 }

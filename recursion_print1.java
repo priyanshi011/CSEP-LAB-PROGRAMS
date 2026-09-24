@@ -12,7 +12,7 @@ static void print(int N){
         System.out.println("Enter a number:\n");
         int N=sc.nextInt();
        print(N);
-
+       sc.close();
     }
     
 }
