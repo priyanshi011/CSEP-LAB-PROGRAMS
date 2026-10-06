@@ -4,7 +4,7 @@ static void print(int N,int i,int[] arr){
 if(i==N){
     return;
 }
-
+System.out.println(arr[i]+"");
 
  print(N,i+1,arr);
 
